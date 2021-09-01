@@ -47,6 +47,7 @@ class MainActivity : AppCompatActivity() {
             running = false
         }
     }
+    
     private fun resetStopWatch(){
         binding.chNumberStopWatch.base = SystemClock.elapsedRealtime()
         pause = 0
